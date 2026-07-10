@@ -179,9 +179,37 @@ ORDER BY
         OnlineSecurity
 ```
 ### Reults/Findings
+The analysis results are summarized as follows:
+- The analysis identified an overall customer churn rate of 26.54%, indicating that approximately one in four customers left the company.
+- Customers on Month-to-month contracts exhibited the highest churn rate, while customers on one-year and two-year contracts were significantly more likely to remain with the company.
+- Customers with shorter tenures were more likely to churn, suggesting that the highest risk of attrition occurs during the early stages of the customer lifecycle.
+- Higher monthly charges were associated with increased customer churn, indicating that pricing may influence customer retention.
+- Electronic Check was the payment method with the highest churn rate compared to other payment options.
+- Customers using Fiber Optic internet service experienced the highest churn rate among all internet service categories.
+- Customers without Tech Support showed a higher churn rate than those who subscribed to the service.
+- Customers without Online Security were more likely to churn than customers who had the service.
+- The interactive Tableau dashboard enables users to filter and explore churn trends across multiple customer segments, supporting data-driven business decisions.
 
+### Recommendation
+Based on the analysis the followinng actions are recommended to reduce churn rain and increase customer retention
+- Reduce month to month churn by offering incentives such as discounted pricing, loyalty rewards, or free service upgrades for customers who switch to one or twoyear contracts.
+ Strengthen the first 12 months of the customer journey by implementing a structured onboarding program, welcome emails, check in calls, and proactive customer support to improve early retention.
+- Review high monthly pricing plans and introduce flexible pricing tiers or bundled packages to increase perceived value for customers with higher monthly charges.
+- Encourage customers to switch from Electronic Check to automatic payments by offering bill discounts, cashback, or reward points, as customers using automatic payment methods exhibit lower churn.
+- Investigate the high churn among Fiber Optic customers by collecting customer feedback, monitoring service quality, and addressing network reliability or pricing concerns where necessary.
+- Increase adoption of Tech Support and Online Security by bundling these services with internet plans, offering free trial periods, or providing discounted add-ons to customers who do not currently subscribe.
+- Develop an early-warning retention program that flags customers with high-risk characteristics (e.g., month-to-month contracts, short tenure, high monthly charges, and no value-added services) so targeted retention campaigns can be launched before they churn.
 
+ ### Limitations
+- The analysis is based on a single historical dataset and may not reflect current customer behavior or market conditions.
+- The dataset does not include information such as customer satisfaction, service quality, competitor activity, or reasons for churn, limiting the ability to explain why customers left.
+- The analysis identifies relationships between variables and churn but does not establish causation.
+- Customer segments were analyzed using grouped categories (e.g., tenure and monthly charges), which may mask more detailed patterns within individual customers.
+- This project focuses on descriptive and exploratory analysis and does not include predictive modeling to forecast future customer churn.
 
+### References
+References
 
-
-  
+1. [IBM Telco Customer Churn Dataset. Kaggle.](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+2. [Tableau. Tableau Public Documentation.](https://help.tableau.com/)
+3. [Microsoft. Microsoft Excel Documentation.](https://support.microsoft.com/excel)
