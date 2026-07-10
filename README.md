@@ -14,6 +14,9 @@
 
 This project analyzes customer churn using the IBM Telco Customer Churn dataset to identify the key factors influencing customer retention and attrition. The analysis was performed using SQL for data cleaning, Excel for KPI calculations, and Tableau for building an interactive dashboard. The objective of the project is to uncover the main drivers of churn, visualize customer behavior, and provide actionable insights that can help businesses improve customer retention and make data-driven decisions.
 
+
+<img width="1499" height="1199" alt="IBM TELECO CUSTOMER CHURN DASHBOARD" src="https://github.com/user-attachments/assets/db6a6a6e-5da6-4d0c-b29a-861935610555" />
+
 ### Data Source
 
 The dataset used in this project is the IBM Telco Customer Churn dataset, obtained from Kaggle. It contains customer demographic, service, billing, and churn information for 7,043 telecom customers. Dataset:https://www.kaggle.com/datasets/blastchar/telco-customer-churn
