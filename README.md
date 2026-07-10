@@ -99,8 +99,8 @@ SELECT
     ELSE '60+'
     END as Tenure_Group,
     COUNT(*) total_customers,
-    SUM(CASE WHEN Churn = true THEN 1 else 0 END)* 100/ count(*),2) AS churn_rate,
-    SUM (CASE WHEN Churn = true THEN 1 else 0 END) AS Total_churn
+    SUM(CASE WHEN Churn = true THEN 1 ELSE 0 END)* 100/ count(*),2) AS churn_rate,
+    SUM (CASE WHEN Churn = true THEN 1 ELSE 0 END) AS Total_churn
 FROM
      `porflio-projrct-1.ibm_churn_analysis.clean_churn_table` 
 GROUP BY
@@ -120,7 +120,7 @@ SELECT
     END AS Monthly_Charge_Group,
     COUNT(*) total_customers,
     SUM(CASE WHEN Churn = true THEN 1 ELSE 0 END)* 100/ count(*) AS churn_rate,
-    SUM(case WHEN Churn = true THEN 1 ELSE 0 END) ASS Total_churn
+    SUM(CASE WHEN Churn = true THEN 1 ELSE 0 END) ASS Total_churn
 FROM
      `porflio-projrct-1.ibm_churn_analysis.clean_churn_table` 
 GROUP BY
