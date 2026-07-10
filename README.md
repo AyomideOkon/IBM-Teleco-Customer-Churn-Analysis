@@ -1,5 +1,15 @@
 # IBM-Teleco-Customer-Churn-Analysis
 
+### Table Of Content
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis Query](#data-analysis-query)
+- [Recommendation](#recommendation)
+- [Limitations](#limitations)
+- [References](#references)
+
 ### Project Overview
 
 This project analyzes customer churn using the IBM Telco Customer Churn dataset to identify the key factors influencing customer retention and attrition. The analysis was performed using SQL for data cleaning, Excel for KPI calculations, and Tableau for building an interactive dashboard. The objective of the project is to uncover the main drivers of churn, visualize customer behavior, and provide actionable insights that can help businesses improve customer retention and make data-driven decisions.
