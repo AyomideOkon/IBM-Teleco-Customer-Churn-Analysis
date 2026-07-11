@@ -108,7 +108,7 @@ FROM
      `porflio-projrct-1.ibm_churn_analysis.clean_churn_table` 
 GROUP BY
        Tenure_Group
-GROUP BY
+ORDER BY
        Tenure_Group ;
 ```
 Churn by Monthy Charges
