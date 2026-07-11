@@ -4,7 +4,9 @@
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools](#tools)
+- [Data Cleaning And Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Results And Findings](#results-and-findings)
 - [Data Analysis Query](#data-analysis-query)
 - [Recommendation](#recommendation)
 - [Limitations](#limitations)
@@ -26,7 +28,7 @@ The dataset used in this project is the IBM Telco Customer Churn dataset, obtain
 - SQL- Data Analysis [Download here](https://www.google.com/aclk?sa=L&ai=DChsSEwiQ1ZSIuMiVAxU_pVAGHSVxOMgYACICCAEQARoCZGc&ae=2&co=1&ase=2&gclid=Cj0KCQjwsMLSBhD9ARIsAIpUTDoFp9zUz4I9oUIch82IuUSqthaIs-la6BhhicCi6buyLOHJEnon1dUaAnvHEALw_wcB&cid=CAASuwHkaHUeRtYPXh2-XjbEIyN5mV4IQKLM2_9v2gjeebigqXvALRuPxh_yca1mqxUbdCSr69V5SdMbETP3hR5eu-cBIG8sQMzz8RizvVVkmk6NjH4Ei9da0rgZFV79hmaOGYzop6X-ov-uQDc_rL12CMvYG5ffPPZEIXeKQbPw3EVRORBS_sTST01FuSEswphZQBKfxF7e7UUs2V_rI4XmrjMPDIMZgZUVNuLvp7dHXZ08VMwIWxvTL4Fk8FAy&cce=2&category=acrcp_v1_71&sig=AOD64_3t8n4aBzuueq7GyshaM7ubBGE5pw&q&nis=4&adurl&ved=2ahUKEwiouo6IuMiVAxWDe0EAHeeZOV8Q0Qx6BAgVEAE)
 - Tableau- Data Visualization [Download here](https://www.tableau.com/products/public)
 
-### Data Cleaning/Preparation
+### Data Cleaning And Preparation
 The dataset was cleaned and prepared in Microsoft Excel before analysis. The following data cleaning steps were performed:
 - Checked the dataset for duplicate records and removed duplicates where necessary.
 - Identified and handled missing or blank values.
